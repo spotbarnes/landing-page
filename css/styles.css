@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+.page__header {
+    background-color: cornflowerblue;
+ 
+}
+
+.main__hero {
+    background-color: midnightblue;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    height: 5em;
+    padding: 2em 1em;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+}
+
+.landing__container {
+    color: white;
+    background-color: #505050; 
+    opacity: 0.9; 
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1.2em 0;
+}
+
+.landing__container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.landing__container p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.page__footer {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    height: 5em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
