@@ -58,6 +58,8 @@ li {
 img {
     flex: auto;
     margin-left: 200px;
+    max-width: 350px;
+
 }
 
 button {
