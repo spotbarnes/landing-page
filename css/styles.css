@@ -70,3 +70,21 @@ button {
   border-radius: 7px;
 
 }
+
+.boxes {
+  display: flex; 
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  max-width: 130px;
+}
+
+.quote {
+  margin: auto;
+  width: 300px;
+}
