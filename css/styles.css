@@ -54,6 +54,7 @@ li {
   font-size: 18px;
   font-weight: 100;
   color: #E5E7EB;
+  width: 300px;
 }
 
 .mainline img {
@@ -80,24 +81,24 @@ button {
 
 .boxes {
   display: flex; 
-  gap: 30px;
+  gap: 40px;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px;
+  padding: 50px;
 }
 
 .media {
   display: flex;
   flex-direction: column;
-  flex: 1;
   width: 150px;
   
 }
 
 .image {
-  flex: auto;
   width: 150px;
-  border: 2px solid blue;
+  height: 170px;
+  max-width: 100%;
+  border: 3px solid #3882f6;
   border-radius: 8px;
 }
 
@@ -108,12 +109,23 @@ button {
 .quotebox {
   display: flex;
   justify-content: center;
-  background-color: grey;
+  background-color: #E5E7EB;
   padding: 100px;
 }
 
 .quote {
   display: flex;
   flex-direction: column;
+}
+
+blockquote {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+cite {
+  font-size: 1em;
+  font-weight: 700;
+  font-style: normal;
 }
 
