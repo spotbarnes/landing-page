@@ -80,7 +80,7 @@ button {
 
 .boxes {
   display: flex; 
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
@@ -89,23 +89,31 @@ button {
 .media {
   display: flex;
   flex-direction: column;
-  flex: auto;
-  max-width: 130px;
+  flex: 1;
+  width: 150px;
+  
 }
 
 .image {
   flex: auto;
-  max-width: 130px;
+  width: 150px;
+  border: 2px solid blue;
+  border-radius: 8px;
 }
 
 .content {
+ 
+}
 
+.quotebox {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 100px;
 }
 
 .quote {
-  margin: auto;
-  max-width: 300px;
-  background-color: grey;
-  padding: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
