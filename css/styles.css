@@ -99,18 +99,21 @@ button {
   height: 170px;
   max-width: 100%;
   border: 3px solid #3882f6;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .content {
- 
+  padding-top: 10px;
+  text-align: center;
 }
 
 .quotebox {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 300px;
   background-color: #E5E7EB;
-  padding: 100px;
+   
 }
 
 .quote {
